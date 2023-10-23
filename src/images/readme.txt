@@ -1,0 +1,1 @@
+Just put your image in this folder ("images") and name it "profile_picture.jpg".

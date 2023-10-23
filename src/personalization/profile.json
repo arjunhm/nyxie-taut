@@ -1,0 +1,35 @@
+{
+  "name": "Name Username",
+  "email": "",
+  "bio": "Aliquam dictum scelerisque mi nec vehicula. Quisque sed finibus metus. Ut ultrices risus neque, eget porta ligula mattis a. Vestibulum ac vestibulum nunc, a pulvinar leo. Sed sodales eget enim vel porttitor.",
+  "socials": [
+    {
+      "platform": "github",
+      "username": ""
+    },
+    {
+      "platform": "linkedin",
+      "username": ""
+    },
+    {
+      "platform": "instagram",
+      "username": ""
+    },
+    {
+      "platform": "facebook",
+      "username": ""
+    },
+    {
+      "platform": "pinterest",
+      "username": ""
+    },
+    {
+      "platform": "tumblr",
+      "username": ""
+    },
+    {
+      "platform": "twitter",
+      "username": ""
+    }
+  ]
+}

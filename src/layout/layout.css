@@ -1,0 +1,24 @@
+.custom-button {
+  text-align: center;
+  padding: 5px;
+  margin-right: 10px;
+  width: min-content;
+}
+
+.text-overflow-clamp {
+  width: 100%;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4; /* Limit text to 5 lines */
+  text-overflow: ellipsis;
+  -o-text-overflow: ellipsis; /* Opera */
+  -ms-text-overflow: ellipsis; /* Internet Explorer */
+  text-overflow: ellipsis; /* Standard */
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 800px !important;
+  }
+}
