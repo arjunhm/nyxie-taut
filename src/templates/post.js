@@ -13,10 +13,10 @@ export default function BlogPost({ data }) {
 
   return (
     <Layout>
-      <div>
+      <div className="w-100">
         <h1>{post.frontmatter.title}</h1>
         <small>{formattedDate}</small>
-        <div dangerouslySetInnerHTML={{ __html: post.html }} />
+        <div className="mt-5" dangerouslySetInnerHTML={{ __html: post.html }} />
       </div>
     </Layout>
   );
