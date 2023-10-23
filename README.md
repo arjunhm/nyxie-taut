@@ -2,15 +2,21 @@
 
 A Nyxie-taut template serves as a ready-made and pre-configured web development project, providing a solid starting point for creating blogs,portfolio websites or web-based CVs.
 
-Bare template itself:
+Bare template:
 <img src="https://i.imgur.com/sNDz0zv.jpg"/>
+Filled template:
+<img src="https://i.imgur.com/f1WEhX0.png"/>
 
 <hr/>
 
-## Using:
+## Customization:
 
 <ol>
 <li>Press "Fork" the repository <img src="https://i.imgur.com/SNbR5Qh.jpg"/></li>
+<li>If you want to deploy it to Github Pages, please name it like that: username.github.io, for example: devnyxie.githib.io
+
+</li>
+
 <li>Profile customization:
     <ol>
       <li>Open src/personalization/profile.json</li>
@@ -28,11 +34,24 @@ Bare template itself:
 <li>Blog/Projects
     <ol>
       <li>Open src/content/blog or src/content/projects</li>
-      <li>Drop your projects/blogs in markdown in these folders, and they will be automatically grabbed in build time.</li>
+      <li>Drop your projects/blogs in markdown in these folders, and they will be automatically grabbed in build time.
+      <br/>
+       Note: <br/> Please use this format for your blog/projects: <strong>date+title.md</strong>. <br/>Example: 2023-09-01-my-blog.md</li>
     </ol>
 </li>
 <li>This is it. It's ready for production! Create an account on any hosting platform like Vercel, choose repository you want to deploy and wait a minute until it's deployed.
 </li>
+</ol>
+
+## Deploying to Github Pages:
+
+<ol>
+<li>Name your forked repository as username.github.io as we have mentioned before. <img src="https://i.imgur.com/XTLPV4J.png"/></li>
+<li>Enable the workflows: <img src="https://i.imgur.com/kR3rJGe.png"/></li>
+<li>Head over to settings of your forked repository to enable Github Pages (don't forget to click "Save"!): <img src="https://i.imgur.com/Bpmu3fA.png"/><img src="https://i.imgur.com/CclHfb3.png"/></li>
+<li>Select Gatsby workflow and click <strong>Run workflow</strong>: <img src="https://i.imgur.com/7JoEJs2.jpg"/><img src="https://i.imgur.com/9DZZ0Z2.png"/></li>
+<li>An action will start which will take up to 2 minutes. After, your website must be already live at https://username.github.io 🤍</li>
+
 </ol>
 
 <div align="center">Thank you! <br/> Feel free to star the repository 🤍</div>

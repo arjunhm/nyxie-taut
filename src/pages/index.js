@@ -11,6 +11,7 @@ import {
   FaTumblrSquare,
 } from 'react-icons/fa';
 import { FaSquareInstagram, FaSquareXTwitter } from 'react-icons/fa6';
+import { HiOutlineMail } from 'react-icons/hi';
 
 export default function Home({ data }) {
   function mapSocialMediaAccounts(socials) {
@@ -98,7 +99,17 @@ export default function Home({ data }) {
         <div className="col col-12 col-md-8 h-100 d-flex flex-column mb-4">
           <h4>{user.name}</h4>
           <div className="small ">{user.bio}</div>
-          <hr className="m-1" />
+          <hr className="mt-1 mb-1" />
+          {user.email ? (
+            <div className="d-flex align-items-center">
+              <div>
+                <HiOutlineMail size={20} /> {user.email}
+              </div>
+              <hr className="mt-1 mb-1" />
+            </div>
+          ) : (
+            <></>
+          )}
           <div className="row">{mapSocialMediaAccounts(user.socials)}</div>
         </div>
       </div>
@@ -120,7 +131,10 @@ export const pageQuery = graphql`
       publicURL
     }
 
-    blog: allMarkdownRemark(filter: { fileAbsolutePath: { regex: "/blog/" } }) {
+    blog: allMarkdownRemark(
+      filter: { fileAbsolutePath: { regex: "/blog/" } }
+      sort: { fields: [frontmatter___date], order: DESC }
+    ) {
       blog: nodes {
         fields {
           slug
@@ -137,6 +151,7 @@ export const pageQuery = graphql`
 
     projects: allMarkdownRemark(
       filter: { fileAbsolutePath: { regex: "/projects/" } }
+      sort: { fields: [frontmatter___date], order: DESC }
     ) {
       projects: nodes {
         fields {
