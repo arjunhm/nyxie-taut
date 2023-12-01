@@ -2,8 +2,6 @@
 
 A Nyxie-taut template serves as a ready-made and pre-configured web development project, providing a solid starting point for creating blogs,portfolio websites or web-based CVs.
 
-Bare template:
-<img src="https://i.imgur.com/sNDz0zv.jpg"/>
 Filled template:
 <img src="https://i.imgur.com/f1WEhX0.png"/>
 
