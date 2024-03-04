@@ -140,7 +140,7 @@ export default function Home({ data }) {
                 href='https://tinyurl.com/jun-resume'
                 target="_blank"
                 rel="noreferrer"
-              > resume
+              >resume
               </a>
             </div>
           </div>
