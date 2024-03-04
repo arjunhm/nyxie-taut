@@ -1,7 +1,7 @@
 ---
 title: DNS Lookup
 author: Arjun
-date: 2023-04-01
+date: 2023-04-02
 tags: database
 ---
 

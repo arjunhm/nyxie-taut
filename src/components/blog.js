@@ -72,8 +72,8 @@ export default function Blog({ data }) {
   return (
     <div className="p-3 mt-2 mb-2 rounded small w-100">
       <div className="d-flex pb-2">
-        {/* 'Experience', */}
-        {['Blog', 'Projects'].map((tab, index) => (
+        {/* 'Blog', */}
+        {['Experience', 'Projects'].map((tab, index) => (
           <div
             onClick={(e) => switch_tabs(e)}
             key={index}

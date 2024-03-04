@@ -10,6 +10,7 @@ import {
   FaPinterestSquare,
   FaTumblrSquare,
 } from 'react-icons/fa';
+import { IoIosPaper } from "react-icons/io";
 import { FaSquareInstagram, FaSquareXTwitter } from 'react-icons/fa6';
 import { HiOutlineMail } from 'react-icons/hi';
 
@@ -115,6 +116,7 @@ export default function Home({ data }) {
         <div className="col col-12 col-md-8 h-100 d-flex flex-column mb-4">
           <h3>{user.name}</h3>
           <div className="medium ">{user.bio}</div>
+          <div className="medium ">{user.bio2}</div>
           <hr className="mt-1 mb-1" />
           {user.email ? (
             <div className="d-flex align-items-center">
@@ -126,9 +128,25 @@ export default function Home({ data }) {
           ) : (
             <></>
           )}
+          <p></p>
           <div className="row">{mapSocialMediaAccounts(user.socials)}</div>
+          <div className="row">
+          <div className="col-12 col-sm-6 d-flex align-items-center">
+            <IoIosPaper size={20}/>
+            <div>
+              <span>&nbsp;</span>
+              <a
+                class={`link`}
+                href='https://tinyurl.com/jun-resume'
+                target="_blank"
+                rel="noreferrer"
+              > resume
+              </a>
+            </div>
+          </div>
+          </div>
           <hr className="mt-1 mb-1" />
-          <div className="row">{mapSkills(user.skills)}</div>
+          {/* <div className="row">{mapSkills(user.skills)}</div> */}
         </div>
       </div>
       <Blog data={data} />

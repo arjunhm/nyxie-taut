@@ -1,7 +1,7 @@
 ---
 title: Buffer Pool Manager
 author: Arjun
-date: 2024-02-01
+date: 2024-02-02
 tags: database
 ---
 

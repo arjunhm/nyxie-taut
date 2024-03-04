@@ -1,33 +1,34 @@
 {
-  "name": "Arjun Handli",
-  "email": "hm.arjun97@gmail.com",
-  "bio": "Grad Student @ NJIT. Interested in database internals",
-  "socials": [
-    {
-      "platform": "github",
-      "username": "arjunhm"
-    },
-    {
-      "platform": "linkedin",
-      "username": "arjun-hm"
-    }
-  ],
-  "skills": [
-    {
-      "type": "Languages",
-      "values": "Python, Go, Java, SQL, TypeScript, R, Bash"
-    },
-    {
-      "type": "Databases",
-      "values": "PostgreSQL, MySQL, Redis, Oracle"
-    },
-    {
-      "type": "Frameworks/Technologies",
-      "values": "Django, Flask, Docker, Celery, Git"
-    },
-    {
-      "type": "Cloud Services",
-      "values": "AWS, DigitalOcean"
-    }
-  ]
+    "name": "Arjun Handli",
+    "email": "hm.arjun97@gmail.com",
+    "bio": "Grad Student @ NJIT",
+    "bio2": "Interested in database internals",
+    "socials": [
+        {
+            "platform": "github",
+            "username": "arjunhm"
+        },
+        {
+            "platform": "linkedin",
+            "username": "arjun-hm"
+        }
+    ],
+    "skills": [
+        {
+            "type": "Languages",
+            "values": "Python, Go, Java, SQL, TypeScript, R, Bash"
+        },
+        {
+            "type": "Databases",
+            "values": "PostgreSQL, MySQL, Redis, Oracle"
+        },
+        {
+            "type": "Frameworks/Technologies",
+            "values": "Django, Flask, Docker, Celery, Git"
+        },
+        {
+            "type": "Cloud Services",
+            "values": "AWS, DigitalOcean"
+        }
+    ]
 }
