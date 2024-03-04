@@ -34,6 +34,13 @@ module.exports = {
         path: `${__dirname}/src/content/projects/`,
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `experience`,
+        path: `${__dirname}/src/content/experience/`,
+      },
+    },
     `gatsby-transformer-remark`,
     `gatsby-plugin-use-query-params`,
   ],

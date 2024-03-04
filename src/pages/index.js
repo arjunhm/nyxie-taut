@@ -70,6 +70,22 @@ export default function Home({ data }) {
     return socialMediaAccounts;
   }
 
+  function mapSkills(skills) {
+    const userSkills = skills.map((skill) => {
+      if (skill.values.length > 0) {
+        
+        return (
+          <div className="col-18 col-sm-12 d-flex align-items-center">
+            <div>
+              <span><b>{skill.type}</b>: {skill.values}</span>
+            </div>
+          </div>
+        );
+      }
+    });
+    return userSkills;
+  }
+
   return (
     <Layout>
       <div
@@ -97,8 +113,8 @@ export default function Home({ data }) {
           )}
         </div>
         <div className="col col-12 col-md-8 h-100 d-flex flex-column mb-4">
-          <h4>{user.name}</h4>
-          <div className="small ">{user.bio}</div>
+          <h3>{user.name}</h3>
+          <div className="medium ">{user.bio}</div>
           <hr className="mt-1 mb-1" />
           {user.email ? (
             <div className="d-flex align-items-center">
@@ -111,6 +127,8 @@ export default function Home({ data }) {
             <></>
           )}
           <div className="row">{mapSocialMediaAccounts(user.socials)}</div>
+          <hr className="mt-1 mb-1" />
+          <div className="row">{mapSkills(user.skills)}</div>
         </div>
       </div>
       <Blog data={data} />
@@ -136,6 +154,24 @@ export const pageQuery = graphql`
       sort: { fields: [frontmatter___date], order: DESC }
     ) {
       blog: nodes {
+        fields {
+          slug
+        }
+        frontmatter {
+          date(fromNow: true)
+          title
+          author
+        }
+        excerpt
+        id
+      }
+    }
+
+    experience: allMarkdownRemark(
+      filter: { fileAbsolutePath: { regex: "/experience/" } }
+      sort: { fields: [frontmatter___date], order: DESC }
+    ) {
+      experience: nodes {
         fields {
           slug
         }
