@@ -74,7 +74,7 @@ export default function Home({ data }) {
   function mapSkills(skills) {
     const userSkills = skills.map((skill) => {
       if (skill.values.length > 0) {
-        
+
         return (
           <div className="col-18 col-sm-12 d-flex align-items-center">
             <div>
@@ -120,30 +120,39 @@ export default function Home({ data }) {
           <hr className="mt-1 mb-1" />
           {user.email ? (
             <div className="d-flex align-items-center">
-              <div>
-                <HiOutlineMail size={20} /> {user.email}
-              </div>
-              <hr className="mt-1 mb-1" />
+              {/* <div><HiOutlineMail size={20} /> {user.email}</div>
+              <hr className="mt-1 mb-1" /> */}
             </div>
           ) : (
             <></>
           )}
-          <p></p>
           <div className="row">{mapSocialMediaAccounts(user.socials)}</div>
           <div className="row">
-          <div className="col-12 col-sm-6 d-flex align-items-center">
-            <IoIosPaper size={20}/>
-            <div>
-              <span>&nbsp;</span>
-              <a
-                class={`link`}
-                href='https://tinyurl.com/jun-resume'
-                target="_blank"
-                rel="noreferrer"
-              >resume
-              </a>
+            <div className="col-12 col-sm-6 d-flex align-items-center">
+              <IoIosPaper size={20} />
+              <div>
+                <span>&nbsp;</span>
+                <a
+                  class={`link`}
+                  href='https://tinyurl.com/jun-resume'
+                  target="_blank"
+                  rel="noreferrer"
+                >resume
+                </a>
+              </div>
             </div>
-          </div>
+            <div className="col-12 col-sm-6 d-flex align-items-center">
+              <HiOutlineMail size={20} />
+              <div>
+                <span>&nbsp;</span>
+                <a
+                  class={`link`}
+                  href='mailto:hm.arjun97@gmail.com'
+                  target="_blank"
+                >hm.arjun97@gmail.com
+                </a> 
+              </div>
+            </div>
           </div>
           <hr className="mt-1 mb-1" />
           {/* <div className="row">{mapSkills(user.skills)}</div> */}
