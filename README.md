@@ -7,6 +7,10 @@ Filled template:
 
 <hr/>
 
+## Run
+
+`npm run develop`
+
 ## Customization:
 
 <ol>
