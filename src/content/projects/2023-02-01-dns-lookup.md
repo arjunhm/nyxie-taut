@@ -2,7 +2,7 @@
 title: DNS Lookup
 author: Arjun
 date: 2023-04-02
-tags: networking, dns
+tags: database
 ---
 
 [link](https://github.com/arjunhm/dns-lookup)
