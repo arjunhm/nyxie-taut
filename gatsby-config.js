@@ -21,6 +21,14 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-remark-embed-snippet`,
+      options: {},
+    },
+    {
+      resolve: `gatsby-remark-prismjs`,
+      options: {},
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `blog`,
