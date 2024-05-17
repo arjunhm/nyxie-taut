@@ -1,5 +1,9 @@
 # Nyxie-taut
 
+## Jun
+To run locally
+`npm run develop`  
+
 A Nyxie-taut template serves as a ready-made and pre-configured web development project, providing a solid starting point for creating blogs,portfolio websites or web-based CVs.
 
 Filled template:
