@@ -1,5 +1,5 @@
 ---
-title: Log-Structured Storage Engine Notes
+title: Log-Structured Storage Notes
 author: Arjun
 date: 2024-05-25
 tags: database
