@@ -1,8 +1,8 @@
 {
     "name": "Arjun Handli",
     "email": "hm.arjun97@gmail.com",
-    "bio": "Grad Student @ NJIT",
-    "bio2": "Interested in database internals",
+    "bio": "cs grad. working on databases",
+    "bio2": "currently building custom log structured storage engine.",
     "socials": [
         {
             "platform": "github",
