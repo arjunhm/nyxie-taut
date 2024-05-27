@@ -134,7 +134,7 @@ export default function Home({ data }) {
                 <span>&nbsp;</span>
                 <a
                   class={`link`}
-                  href='https://tinyurl.com/jun-resume'
+                  href='https://drive.google.com/file/d/1vuwJTdn-aRf8rOI9wT-bIEGHL2nqMW4W/'
                   target="_blank"
                   rel="noreferrer"
                 >resume
