@@ -5,7 +5,7 @@ date: 2024-05-25
 tags: database
 ---
 
-# Implementation
+a place to write my thoughts regarding log-structured storage (LSM-Trees)
 
 ## Components
 
