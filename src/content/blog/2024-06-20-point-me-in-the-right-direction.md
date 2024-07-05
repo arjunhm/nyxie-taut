@@ -19,6 +19,24 @@ void func(int *p) {
 }
 ```
 
-C passes arguments by value. Essentially it makes a copy of `*p`, and any modifications to `*p` inside the function only affects the pointer inside the function.
+C passes arguments by value. Essentially it makes a copy of `*p`, and any modifications to `*p` inside the function only affects the pointer inside the function.  
+  
+To modify a pointer, pass a pointer to a pointer.  
+```c
+/*
+Struct Node
+	- int data
+	- left *Node
+	- right *Node
+*/
 
+void func(Node **root) {
+
+	if ((*)root->left == NULL) {
+		Node *n = malloc(sizeof(Node));
+		n->data = 10;
+		(*root)->left = n;
+	}
+}
+```
 
