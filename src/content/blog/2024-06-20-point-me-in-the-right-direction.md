@@ -1,0 +1,24 @@
+---
+title: Point me in the right direction 
+author: Arjun
+date: 2024-06-20
+tags: c
+---
+
+### Using a pointer inside a function
+
+```c
+void func(int *p) {
+	*p++; // integer pointer by p is incremented
+	
+	// create ptr to another int
+	int x = 10;
+	int *xp = &x;
+	
+	p = xp; // this does not work.
+}
+```
+
+C passes arguments by value. Essentially it makes a copy of `*p`, and any modifications to `*p` inside the function only affects the pointer inside the function.
+
+
