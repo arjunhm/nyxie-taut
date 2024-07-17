@@ -134,7 +134,7 @@ export default function Home({ data }) {
                 <span>&nbsp;</span>
                 <a
                   class={`link`}
-                  href='https://drive.google.com/file/d/1bQQ2yuvjlHGdsDjGoHhNt_fM5RH6waGe/view'
+                  href='resume.pdf'
                   target="_blank"
                   rel="noreferrer"
                 >resume
