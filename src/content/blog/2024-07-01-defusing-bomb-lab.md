@@ -5,6 +5,13 @@ date: 2024-07-01
 tags: assembly, low-level
 ---
 
+## Overview
+
+A lab assignment from CMU's [15-213 course](https://www.cs.cmu.edu/afs/cs/academic/class/15213-f22/www/schedule.html).
+
+You can find the assignment [here](https://csapp.cs.cmu.edu/3e/labs.html)
+
+A "binary bomb" is a program provided to students as an object code file. When run, it prompts the user to type in 6 different strings. If any of these is incorrect, the bomb "explodes," printing an error message and logging the event on a grading server. Students must "defuse" their own unique bomb by disassembling and reverse engineering the program to determine what the 6 strings should be. The lab teaches students to understand assembly language, and also forces them to learn how to use a debugger. It's also great fun.
 
 
 ### Phase 1
