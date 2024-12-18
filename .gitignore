@@ -49,6 +49,7 @@ __diff_output__/
 *.sw*
 
 # misc
+.astro
 .serverless/
 .eslintcache
 scripts/.env

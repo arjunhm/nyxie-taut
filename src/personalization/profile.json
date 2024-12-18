@@ -1,7 +1,7 @@
 {
     "name": "Arjun Handli",
     "email": "hm.arjun97@gmail.com",
-    "bio": "working on databases",
+    "bio": "working on databases\na",
     "bio2": "currently building custom log structured storage engine.",
     "socials": [
         {
@@ -16,19 +16,7 @@
     "skills": [
         {
             "type": "Languages",
-            "values": "Python, Go, Java, SQL, TypeScript, R, Bash"
-        },
-        {
-            "type": "Databases",
-            "values": "PostgreSQL, MySQL, Redis, Oracle"
-        },
-        {
-            "type": "Frameworks/Technologies",
-            "values": "Django, Flask, Docker, Celery, Git"
-        },
-        {
-            "type": "Cloud Services",
-            "values": "AWS, DigitalOcean"
+            "values": "Python, Go, Java"
         }
     ]
 }
