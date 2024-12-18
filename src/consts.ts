@@ -26,7 +26,6 @@ type SocialLink = {
 
 export const SUPPORTED_LANGUAGES = {
   'en': 'en',
-  'es': 'es'
 };
 
 export const DEFAULT_LANG = SUPPORTED_LANGUAGES.en as SupportedLanguage;
@@ -53,23 +52,18 @@ export const SOCIAL_LINKS: Array<SocialLink> = [
   {
     icon: "mdi:github",
     friendlyName: "Github",
-    link: "https://github.com/kirontoo/astro-theme-cody",
+    link: "https://github.com/arjunhm",
   },
   {
     icon: "mdi:linkedin",
     friendlyName: "LinkedIn",
-    link: "#",
+    link: "https://linkedin.com/in/arjun-hm/",
   },
   {
     icon: "mdi:email",
     friendlyName: "email",
-    link: "mailto:ndangamy@gmail.com",
+    link: "mailto:hm.arjun97@gmail.com",
   },
-  {
-    icon: "mdi:rss",
-    friendlyName: "rss",
-    link: "/rss.xml"
-  }
 ];
 
 // NOTE: match these entries with keys in `src/i18n/nav.ts`
