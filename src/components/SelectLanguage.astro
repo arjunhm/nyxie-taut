@@ -11,7 +11,7 @@ const { class: className } = Astro.props;
 let currentLanguage = getLangFromUrl(Astro.url);
 ---
 
-<lang-select>
+<!-- <lang-select>
     <label>
         <span class="sr-only">Select Language</span>
         <select
@@ -37,9 +37,9 @@ let currentLanguage = getLangFromUrl(Astro.url);
             }
         </select>
     </label>
-</lang-select>
+</lang-select> -->
 
-<script>
+<!-- <script>
     class LangSelect extends HTMLElement {
         constructor() {
             super();
@@ -55,7 +55,7 @@ let currentLanguage = getLangFromUrl(Astro.url);
     }
 
     customElements.define("lang-select", LangSelect);
-</script>
+</script> -->
 
 <style>
     select {
