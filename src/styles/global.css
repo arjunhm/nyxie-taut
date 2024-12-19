@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+/* code snippets */
+.astro-code {
+    font-size: 16px;
+}
+
+
 @layer base {
   :root {
     color-scheme: light;
@@ -13,7 +19,23 @@
     --theme-surface: #e6e6e6;
     --theme-quote: #dd7878;
     --theme-highlight: #dd7878;
+    /* font-size: 17px; */
   }
+  
+  
+  /* :root { */
+    /* color-scheme: light; */
+    /* https://tailwindcss.com/docs/customizing-colors#using-css-variables */
+    /* --theme-bg: #efefef; */
+    /* --theme-text: #222222; */
+    /* --theme-accent: #dd7878; */
+    /* --theme-accent-2: #bcc0cd; */
+    /* --theme-surface: #e6e6e6; */
+    /* --theme-quote: #dd7878; */
+    /* --theme-highlight: #dd7878; */
+  /* } */
+  
+
 
   :root.dark {
     color-scheme: dark;

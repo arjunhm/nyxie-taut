@@ -22,6 +22,7 @@ type SocialLink = {
   icon: string;
   friendlyName: string; // for accessibility
   link: string;
+  value: string;
 }
 
 export const SUPPORTED_LANGUAGES = {
@@ -53,17 +54,26 @@ export const SOCIAL_LINKS: Array<SocialLink> = [
     icon: "mdi:github",
     friendlyName: "Github",
     link: "https://github.com/arjunhm",
+    value: "arjunhm"
   },
   {
     icon: "mdi:linkedin",
     friendlyName: "LinkedIn",
     link: "https://linkedin.com/in/arjun-hm/",
+    value: "arjun-hm"
   },
   {
     icon: "mdi:email",
     friendlyName: "email",
     link: "mailto:hm.arjun97@gmail.com",
+    value: "hm.arjun97 at gmail dot com"
   },
+  {
+    icon: "mdi:note",
+    friendlyName: "resume",
+    link: "/resume.pdf",
+    value: "resume"
+  }
 ];
 
 // NOTE: match these entries with keys in `src/i18n/nav.ts`

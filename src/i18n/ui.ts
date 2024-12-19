@@ -15,7 +15,7 @@ export default {
             text: "site description"
         },
         "profile.description": {
-            text: "profile description"
+            text: "backend engineer. i get bored easily. so i automate."
         },
         "blog.lastUpdated": {
             text: "Last updated:"
